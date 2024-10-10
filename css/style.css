@@ -1,0 +1,44 @@
+body {
+    background: rgb(200, 216, 225);
+}
+.navbar {
+    background: rgb(141, 237, 170);
+}
+.navbar-brand img {
+    border-radius: 50%;
+}
+.navbar-brand {
+    margin-right: 1px;
+}
+.nav-item {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+.container-xl h2 {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.container-xl {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.carousel-control-prev-icon {
+    background-image: url(../images/angle-left.png);
+}
+.carousel-control-next-icon {
+    background-image: url(../images/angle-right.png);
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 20px;
+}
+.carousel-control-next {
+    right: -35px;
+}
+
+.carousel-control-prev {
+    left: -35px;
+}
